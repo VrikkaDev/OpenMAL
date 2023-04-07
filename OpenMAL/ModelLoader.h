@@ -13,7 +13,7 @@
 
 namespace OpenMAL {
 
-    // Including this header is slow, include loaders/ neededloader instead
+    // Including this header can be slow, include loaders/ neededloader instead
 
     class ModelLoader {
     public:

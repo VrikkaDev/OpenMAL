@@ -9,6 +9,7 @@ file(GLOB_RECURSE header_files
 
 add_library(openmal SHARED ${header_files})
 set_target_properties(openmal PROPERTIES LINKER_LANGUAGE CXX)
+target_include_directories(openmal PUBLIC OpenMAL/)
 
 # Examples
 option(MAL_BUILD_EXAMPLES "Build all examples inside examples/ folder." ON)

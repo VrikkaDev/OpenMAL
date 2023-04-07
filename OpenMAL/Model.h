@@ -15,7 +15,6 @@ namespace OpenMAL {
         std::vector<Vec3> normals;
         std::vector<Vec2> texcoords;
         std::vector<unsigned int> indices;
-        std::optional<>
     };
 
 }
