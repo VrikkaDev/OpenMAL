@@ -8,7 +8,7 @@
 
 int main(){
 
-    auto model = OpenMAL::ModelLoader::LoadModel("C:/Users/veikk/CLionProjects/openmal/examples/Assets/Cube.stl");
+    auto model = OpenMAL::ModelLoader::LoadModel("../examples/Assets/Cube.stl");
 
     std::cout<<"---------Positions---------"<<std::endl;
     for (auto a : model->positions) {
